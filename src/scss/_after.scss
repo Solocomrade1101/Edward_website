@@ -1,0 +1,153 @@
+.after{
+  position: relative;
+  width: 100vw;
+  background: #181818;
+  padding: 0px 0px 12px 0px;
+
+
+}
+
+.after__about, .after__contact {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 28px;
+  background: #181818;
+  box-shadow: 0px 0px 80px 0px #080808;
+  margin-bottom: 80px;
+}
+.content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+
+
+}
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 60px;
+}
+.about__title {
+justify-self: start;
+display: flex;
+flex-direction: column;
+align-items: end;
+font-size: 36px;
+line-height: 44px; 
+letter-spacing: 2px;
+svg{
+margin-bottom: 16px;
+}
+}
+.about__text {
+  color: rgba(255, 255, 255, 0.56);
+max-width: 538px;
+font-size: 16px;
+line-height: 24px; 
+margin-left: 5px;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px
+}
+.skills__item {
+  position: relative;
+  border-radius: 16px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+display: flex;
+align-items: center;
+justify-content: center;
+padding:27px 0px;
+img{
+  transform: translateY(3px)
+}
+
+}
+.skills__title {
+  color: rgba(255, 255, 255, 0.50);
+position: absolute;
+top: 12px;
+right: 12px;
+font-family: "MontL";
+font-size: 12px;
+line-height: 16px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding: 60px 0;
+  background: url(./assets/smooke.png);
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.contact__figure {
+  justify-self: center;
+  width: 142px;
+  height: 110px;
+  background: url(./assets/figure.svg);
+  background-size: cover;
+}
+.contact__content {
+  margin-left: 5px;
+}
+.contact__title {
+  justify-content: left;
+  margin-bottom: 36px;
+  h2{
+    align-items: start;
+  }
+}
+.about__title {
+}
+.contact__items {
+}
+.contact__item {
+  margin-bottom: 32px;
+}
+.contact__subtitle {
+  color: rgba(255, 255, 255, 0.56);
+font-size: 12px;
+line-height: 16px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+.contact__name {
+  position: relative;
+  color: #FFF;
+font-size: 20px;
+line-height: 24px;
+&::before{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  background: #fff;
+  transition: all ease .4s;
+}
+&:hover::before{
+content: '';
+width: 100%;
+}
+}
+
+.after__footer {
+  
+  text-align: center;
+}
+.after__footer-text {
+  color: rgba(255, 255, 255, 0.64);
+font-size: 12px;
+line-height: 16px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 12px;
+}
