@@ -14,8 +14,8 @@ keys.forEach(item => {
       let current = e.currentTarget.dataset.info - 1 
       frameInfo[current].classList.toggle('frame__info-active')
     }else{
-      console.log(e.currentTarget.dataset.link)
-      // window.open('https://solocomrade1101.github.io/React_Applications.github.io/')
+      
+      window.open(e.currentTarget.dataset.link)
     }
     
   
