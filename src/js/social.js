@@ -1,6 +1,7 @@
 
 let arrow = document.querySelector('.social__arrow-open')
 let socialOpen = document.querySelector('.fixed__social-open')
+let logo = document.querySelector('.fixed__logo')
 
 document.querySelector('.social__event').addEventListener('mouseenter', () => {
     arrow.style.transform = 'rotate(180deg)'
@@ -13,4 +14,8 @@ socialOpen.addEventListener('mouseleave', () => {
     socialOpen.style.transform = 'translateX(-60px)'
     socialOpen.style.opacity = '0'
     socialOpen.style.pointerEvents = 'none'
+})
+
+logo.addEventListener('click', () => {
+    location.reload()
 })

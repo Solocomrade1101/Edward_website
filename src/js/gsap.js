@@ -33,8 +33,25 @@ gsap.fromTo('.frame-l__scroll', {opacity: 1 }, {
 })
 
 
+gsap.fromTo(".keys-1", { filter: "blur(6px)" }, {
+  filter: "blur(0px)",
+  scrollTrigger: {
+    trigger: ".keys-1",
+    start: '400px center',
+    end: '700px center',
+    scrub: true,
+  }
+})
 
-
+gsap.fromTo(".keys-3", { filter: "blur(6px)" }, {
+  filter: "blur(0px)",
+  scrollTrigger: {
+    trigger: ".keys-3",
+    start: '1200px center',
+    end: '1400px center',
+    scrub: true,
+  }
+})
 
   gsap.fromTo(".keys-2", { filter: "blur(6px)" }, {
     filter: "blur(0px)",
