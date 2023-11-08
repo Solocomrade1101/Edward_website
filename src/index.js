@@ -44,7 +44,7 @@ import movie from './assets/movies.png'
 import reactKeys from './assets/react.png'
 import nft from './assets/nft.png'
 import horses from './assets/horses.png'
-
+import gBartev from './assets/georgeWebsite.png'
 import figure from './assets/figure.svg'
 
 
