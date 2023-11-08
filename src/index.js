@@ -23,8 +23,6 @@ import github from './assets/github.svg'
 import line from './assets/LineKeys.svg'
 import curcle from './assets/curcle.svg'
 
-import cinema from './assets/cinema.png'
-import twokeys from './assets/twoFrame.png'
 import info from './assets/info.svg'
 
 import html from './assets/html.svg'
@@ -40,11 +38,10 @@ import jquery from './assets/jquery.svg'
 import bootstrap from './assets/bootstrap.svg'
 import github2 from './assets/github2.svg'
 
-import movie from './assets/movies.png'
-import reactKeys from './assets/react.png'
-import nft from './assets/nft.png'
-import horses from './assets/horses.png'
-import gBartev from './assets/georgeWebsite.png'
+import reactKeys from './assets/react.webp'
+import nft from './assets/nft.webp'
+import horses from './assets/horses.webp'
+import gBartev from './assets/georgeWebsite.webp'
 import figure from './assets/figure.svg'
 
 

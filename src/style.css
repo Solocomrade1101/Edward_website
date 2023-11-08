@@ -264,22 +264,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .keys-1 .frame__block-img {
-  background: url(./assets/georgeWebsite.png) 50% no-repeat;
+  background: url(./assets/georgeWebsite.webp) 50% no-repeat;
   background-size: cover;
 }
 
 .keys-4 .frame__block-img {
-  background: url(./assets/nft.png) 50% no-repeat;
+  background: url(./assets/nft.webp) 50% no-repeat;
   background-size: cover;
 }
 
 .keys-2 .frame__block-img {
-  background: url(./assets/react.png) 50% no-repeat;
+  background: url(./assets/react.webp) 50% no-repeat;
   background-size: cover;
 }
 
 .keys-3 .frame__block-img {
-  background: url(./assets/horses.png) 50% no-repeat;
+  background: url(./assets/horses.webp) 50% no-repeat;
   background-size: cover;
 }
 
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 50% 50%;
   align-items: center;
   padding: 60px 0;
-  background: url(./assets/smooke.png);
+  background: url(./assets/smooke.webp);
   background-size: cover;
   margin-bottom: 40px;
 }
